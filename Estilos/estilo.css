@@ -45,7 +45,8 @@ p {
 .contanier-topo-link {
     display: flex;
     width: 600px;
-    justify-content: center;
+    padding-left: 20px;
+    justify-content: flex-start;
     align-items: center;
     font-size: 18px;
     font-weight: 600;
@@ -62,10 +63,10 @@ p {
 .contanier-topo-links {
     display: flex;
     width: 700px;
-    padding-right: 30px;
+    padding-right: 20px;
     justify-content: flex-end;
     align-items: center;
-    gap: 50px;
+    gap: 30px;
     font-size: 18px;
     font-weight: 700;
     line-height: 20px;
