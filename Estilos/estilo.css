@@ -139,24 +139,20 @@ p {
     flex-flow: row wrap;
     justify-content: space-between;
     gap: 10px;
-
 }
 .sobre-conteudo{
     width: 600px;
     display: flex;
     padding: 20px 30px;
-    justify-content: flex-start;
     gap: 30px;
 }
 .sobre-conteudo div {
     display: flex;
-    justify-content: flex-start;
     flex-flow: column wrap;
 }
 .sobre-conteudo img {
     width: 100px;
     display: flex;
-    justify-content: flex-end;
 }
 .secao-sobre h3 {
     text-align: left;
@@ -164,6 +160,10 @@ p {
 }
 .secao-sobre p {
     text-align: left;
+}
+.secao-correcao {
+    display: flex;
+    justify-content: space-between;
 }
 
 
