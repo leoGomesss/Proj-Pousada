@@ -30,6 +30,8 @@ p {
     padding: 10px 0px;
     position: fixed;
     background-color: #fff;
+    border: 3px solid #6592c9;
+    border-radius: 33px;
 }
 .limitar-secao {
     width: 100%;
@@ -62,10 +64,9 @@ p {
 .contanier-topo-links {
     display: flex;
     width: 700px;
-    padding-right: 30px;
-    justify-content: flex-end;
+    justify-content: space-around;
     align-items: center;
-    gap: 50px;
+    gap: 10px;
     font-size: 18px;
     font-weight: 700;
     line-height: 20px;
@@ -144,37 +145,33 @@ p {
     color: #0000CD;
     font-size: 1.27em;
 }
-/*SEÇAO - SOBRE*/
-.secao-sobre {
+.contanier {
+    border: 7px solid red;
     display: flex;
-    flex-flow: row wrap;
-    justify-content: space-between;
-    gap: 10px;
-}
-.sobre-conteudo{
-    width: 600px;
-    display: flex;
-    padding: 20px 30px;
-    gap: 30px;
-}
-.sobre-conteudo div {
-    display: flex;
+    justify-content: center;
     flex-flow: column wrap;
 }
-.sobre-conteudo img {
-    width: 100px;
+.contanier-texto {
     display: flex;
+    justify-content: center;
 }
-.secao-sobre h3 {
-    text-align: left;
-    padding-bottom: 14px;
+.contanier h3 {
+    text-align: center;
 }
-.secao-sobre p {
-    text-align: left;
-}
-.secao-correcao {
+.contanier-lista {
     display: flex;
-    justify-content: space-between;
+    width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 7px solid yellow;
+}
+.lista-informacoes {
+    display: flex;
+    padding: 0px 20px;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    flex-flow: row wrap;
+    gap: 20px;
 }
 /*SEÇAO - RODAPE*/
 .rodape {
