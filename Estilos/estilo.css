@@ -227,3 +227,17 @@ p {
     align-items: center;
     gap: 10px;
 }
+.solucao-final {
+    display: flex;
+    margin-top: 40px;
+    flex-flow: column wrap;
+}
+.rodape-linha {
+    width: 300px;
+    padding-top: 7px;
+    border-top: 1px solid #0a9077b3;
+}
+.direitos-copia {
+    margin: 0px auto;
+    color: #fff;
+}
