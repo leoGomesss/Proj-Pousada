@@ -1,9 +1,10 @@
 @charset "UTF-8";
 
 @font-face {
-    font-family: fonte001;
-    src: url('EduAUVICWANTDots-Regular') format('truetype');
+    font-family: 'fonte001';
+    src: url('../Fontes/CaviarDreams_BoldItalic.ttf') format('truetype');
 }
+
 *{
     margin: 0;
     padding: 0;
@@ -48,7 +49,7 @@ p {
 .contanier-topo-link {
     display: flex;
     width: 600px;
-    padding-left: 20px;
+    padding-left: 10px;
     justify-content: flex-start;
     align-items: center;
     font-size: 18px;
@@ -65,14 +66,21 @@ p {
 }
 .contanier-topo-links {
     display: flex;
-    width: 700px;
-    padding-right: 10px;
+    max-width: 400px;
+    padding-right: 7px;
     justify-content: flex-end;
     align-items: center;
+    flex-direction: row wrap;
     gap: 20px;
-    font-size: 18px;
-    font-weight: 700;
+    font-size: 17px;
+    font-weight: 400;
     line-height: 20px;
+}
+.contanier-topo-links a:hover {
+    font-size: 18px;
+    font-weight: bold;
+    color: #3d3d3d;
+    box-shadow: 1px 1px 1px 1px #0a9077b3;
 }
 .topo-links {
     text-decoration: none;
